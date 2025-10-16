@@ -16,7 +16,7 @@ else
    echo -e "....Updating assignment to $new "
 fi
 
-# Change the value in variable ASSIGNMENT
+# Change the value in variable ASSIGNMENT to new assigned variable.
  sed -i "s/^ASSIGNMENT=.*/ASSIGNMENT=\"$new\"/" "$loc"
 
 
